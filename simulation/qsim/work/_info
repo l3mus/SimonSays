@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.1\quartus\my_designs\simon_says\simulation\qsim
+vcounter
+Z1 I_o[azPe?j896:lUWXEzGH2
+Z2 VgMB9g:P[YeVn?U4F?]ID31
+Z3 dD:\altera\13.1\quartus\my_designs\simon_says\simulation\qsim
+Z4 w1480803204
+Z5 8simon_says.vo
+Z6 Fsimon_says.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|simon_says.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 _]Kl9zo^jJ>C<6nZ>DFFS0
+!s85 0
+Z11 !s108 1480803205.362000
+Z12 !s107 simon_says.vo|
+!s101 -O0
+vcounter_vlg_check_tst
+!i10b 1
+Z13 !s100 HMdfnG;mzMmL@1P:C3J2=1
+Z14 I;eOX5e9fXjO2Q@zkaR_WP2
+Z15 Ve3P@@d9DkZXlD7XWAI[z]1
+R3
+Z16 w1480803202
+Z17 8Waveform1.vwf.vt
+Z18 FWaveform1.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1480803205.648000
+Z20 !s107 Waveform1.vwf.vt|
+Z21 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R9
+vcounter_vlg_sample_tst
+!i10b 1
+Z22 !s100 ;?lok62eOQLeldX1@aVCD2
+Z23 ICblf<iW2YD76MdV64hIUh2
+Z24 V?j2TWgJQel6d3R:nTAzY=3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcounter_vlg_vec_tst
+!i10b 1
+Z25 !s100 S4oj0F_8OB7odM@jZQ>nd2
+Z26 I7ULXQl0;UAWfC:>C7SQ4?0
+Z27 V@9OC]=hZZe;4GTW8>c1jE1
+R3
+R16
+R17
+R18
+Z28 L0 173
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vtop
+Z29 !s100 :HzHK[?VhRBaUXWBWAN9f2
+Z30 I0B2La6[=`VAVGfGN8Kl>J1
+Z31 V:74[hQZjgLnJNZ3[k`Hlh2
+R3
+Z32 w1480798812
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z33 !s108 1480798813.457000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_vlg_check_tst
+Z34 !s100 LRLfo7Bc>Pe1NgT]J3BXS2
+Z35 INK4EJdQO9TnB6=hYR2G_X2
+Z36 VI2YI7dBN_cGzZzJ^3@eU<1
+R3
+Z37 w1480798811
+Z38 8Waveform.vwf.vt
+Z39 FWaveform.vwf.vt
+L0 67
+R7
+r1
+31
+Z40 !s108 1480798813.807000
+Z41 !s107 Waveform.vwf.vt|
+Z42 !s90 -work|work|Waveform.vwf.vt|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_vlg_sample_tst
+Z43 !s100 =J8?JE<nTNnUd[2>6l1^:3
+Z44 Ie_Dd6n83_EjMFkH;dz4k>0
+Z45 VZ85KeP4k20RhTQ=f2Tof]2
+R3
+R37
+R38
+R39
+L0 29
+R7
+r1
+31
+R40
+R41
+R42
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_vlg_vec_tst
+Z46 IL08S5FgCPcR^=P;F39;Ol1
+Z47 Vda?jdcYLcj7iMbie@gX@73
+R3
+R37
+R38
+R39
+Z48 L0 834
+R7
+r1
+31
+R40
+R41
+R42
+R9
+Z49 !s100 5m1_>K5?j`WFl[YBb[=::2
+!i10b 1
+!s85 0
+!s101 -O0

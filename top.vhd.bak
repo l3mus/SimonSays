@@ -1,0 +1,27 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+
+ENTITY top IS
+	PORT(newGame : )
+end TOP;
+
+ARCHITECTURE behavior OF top IS
+
+	COMPONENT counter
+		PORT(q		: OUT std_logic;
+			 clk 		: IN  std_logic;
+			 enable	: IN  std_logic;
+			 clear	: IN  std_logic);
+	END COMPONENT
+	
+	COMPONENT register_file
+		PORT(
+			 outA        : OUT std_logic_vector(96 downto 0);
+			 input       : IN  std_logic_vector(96 downto 0);
+			 writeEnable : IN  std_logic;
+			 regASel     : IN  std_logic_vector(5 downto 0);
+			 writeRegSel : IN  std_logic_vector(5 downto 0);
+			 clk         : IN  std_logic);
+			 
+			 

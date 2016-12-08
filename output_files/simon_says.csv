@@ -1,0 +1,90 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: D:\altera\13.1\quartus\my_designs\simon_says\output_files\simon_says.csv
+# Generated on: Sun Dec 04 09:54:37 2016
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+blank,Output,PIN_F11,8,B8_N1,PIN_F11,,,,,
+block0,Input,PIN_R24,5,B5_N0,PIN_R24,,,,,
+block1,Input,PIN_N21,6,B6_N2,PIN_N21,,,,,
+block2,Input,PIN_M21,6,B6_N1,PIN_M21,,,,,
+block3,Input,PIN_M23,6,B6_N2,PIN_M23,,,,,
+blue_out[7],Output,PIN_D12,8,B8_N0,PIN_D12,,,,,
+blue_out[6],Output,PIN_D11,8,B8_N1,PIN_D11,,,,,
+blue_out[5],Output,PIN_C12,8,B8_N0,PIN_C12,,,,,
+blue_out[4],Output,PIN_A11,8,B8_N0,PIN_A11,,,,,
+blue_out[3],Output,PIN_B11,8,B8_N0,PIN_B11,,,,,
+blue_out[2],Output,PIN_C11,8,B8_N1,PIN_C11,,,,,
+blue_out[1],Output,PIN_A10,8,B8_N0,PIN_A10,,,,,
+blue_out[0],Output,PIN_B10,8,B8_N0,PIN_B10,,,,,
+clk25_out,Output,PIN_A12,8,B8_N0,PIN_A12,,,,,
+clk_50,Input,PIN_Y2,2,B2_N0,PIN_Y2,,,,,
+displayCorrect,Output,PIN_G21,7,B7_N1,PIN_G21,,,,,
+green_out[7],Output,PIN_C9,8,B8_N1,PIN_C9,,,,,
+green_out[6],Output,PIN_F10,8,B8_N1,PIN_F10,,,,,
+green_out[5],Output,PIN_B8,8,B8_N1,PIN_B8,,,,,
+green_out[4],Output,PIN_C8,8,B8_N1,PIN_C8,,,,,
+green_out[3],Output,PIN_H12,8,B8_N1,PIN_H12,,,,,
+green_out[2],Output,PIN_F8,8,B8_N2,PIN_F8,,,,,
+green_out[1],Output,PIN_G11,8,B8_N1,PIN_G11,,,,,
+green_out[0],Output,PIN_G8,8,B8_N2,PIN_G8,,,,,
+hs_out,Output,PIN_G13,8,B8_N0,PIN_G13,,,,,
+levelDisplay[13],Output,PIN_AA14,3,B3_N0,PIN_AA14,,,,,
+levelDisplay[12],Output,PIN_AG18,4,B4_N2,PIN_AG18,,,,,
+levelDisplay[11],Output,PIN_AF17,4,B4_N2,PIN_AF17,,,,,
+levelDisplay[10],Output,PIN_AH17,4,B4_N2,PIN_AH17,,,,,
+levelDisplay[9],Output,PIN_AG17,4,B4_N2,PIN_AG17,,,,,
+levelDisplay[8],Output,PIN_AE17,4,B4_N2,PIN_AE17,,,,,
+levelDisplay[7],Output,PIN_AD17,4,B4_N2,PIN_AD17,,,,,
+levelDisplay[6],Output,PIN_AC17,4,B4_N2,PIN_AC17,,,,,
+levelDisplay[5],Output,PIN_AA15,4,B4_N2,PIN_AA15,,,,,
+levelDisplay[4],Output,PIN_AB15,4,B4_N2,PIN_AB15,,,,,
+levelDisplay[3],Output,PIN_AB17,4,B4_N1,PIN_AB17,,,,,
+levelDisplay[2],Output,PIN_AA16,4,B4_N2,PIN_AA16,,,,,
+levelDisplay[1],Output,PIN_AB16,4,B4_N2,PIN_AB16,,,,,
+levelDisplay[0],Output,PIN_AA17,4,B4_N1,PIN_AA17,,,,,
+newGame,Input,PIN_AB28,5,B5_N1,PIN_AB28,,,,,
+red_out[7],Output,PIN_H10,8,B8_N1,PIN_H10,,,,,
+red_out[6],Output,PIN_H8,8,B8_N2,PIN_H8,,,,,
+red_out[5],Output,PIN_J12,8,B8_N0,PIN_J12,,,,,
+red_out[4],Output,PIN_G10,8,B8_N1,PIN_G10,,,,,
+red_out[3],Output,PIN_F12,8,B8_N1,PIN_F12,,,,,
+red_out[2],Output,PIN_D10,8,B8_N1,PIN_D10,,,,,
+red_out[1],Output,PIN_E11,8,B8_N1,PIN_E11,,,,,
+red_out[0],Output,PIN_E12,8,B8_N1,PIN_E12,,,,,
+states[2],Output,PIN_E19,7,B7_N0,PIN_E19,,,,,
+states[1],Output,PIN_F19,7,B7_N0,PIN_F19,,,,,
+states[0],Output,PIN_G19,7,B7_N2,PIN_G19,,,,,
+sync,Output,PIN_C10,8,B8_N0,PIN_C10,,,,,
+toggle,Input,PIN_AC28,5,B5_N2,PIN_AC28,,,,,
+triesDisplay[13],Output,PIN_AH18,4,B4_N2,PIN_AH18,,,,,
+triesDisplay[12],Output,PIN_AF18,4,B4_N1,PIN_AF18,,,,,
+triesDisplay[11],Output,PIN_AG19,4,B4_N2,PIN_AG19,,,,,
+triesDisplay[10],Output,PIN_AH19,4,B4_N2,PIN_AH19,,,,,
+triesDisplay[9],Output,PIN_AB18,4,B4_N0,PIN_AB18,,,,,
+triesDisplay[8],Output,PIN_AC18,4,B4_N1,PIN_AC18,,,,,
+triesDisplay[7],Output,PIN_AD18,4,B4_N1,PIN_AD18,,,,,
+triesDisplay[6],Output,PIN_AE18,4,B4_N2,PIN_AE18,,,,,
+triesDisplay[5],Output,PIN_AF19,4,B4_N1,PIN_AF19,,,,,
+triesDisplay[4],Output,PIN_AE19,4,B4_N1,PIN_AE19,,,,,
+triesDisplay[3],Output,PIN_AH21,4,B4_N2,PIN_AH21,,,,,
+triesDisplay[2],Output,PIN_AG21,4,B4_N2,PIN_AG21,,,,,
+triesDisplay[1],Output,PIN_AA19,4,B4_N0,PIN_AA19,,,,,
+triesDisplay[0],Output,PIN_AB19,4,B4_N0,PIN_AB19,,,,,
+vs_out,Output,PIN_C13,8,B8_N0,PIN_C13,,,,,
+displayTHAT,Unknown,PIN_H15,7,B7_N2,,,,,,

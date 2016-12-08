@@ -1,0 +1,145 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 18:29:00  December 02, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		simon_says_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:29:00  DECEMBER 02, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "D:/altera/13.1/quartus/my_designs/simon_says/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F11 -to blank
+set_location_assignment PIN_D12 -to blue_out[7]
+set_location_assignment PIN_D11 -to blue_out[6]
+set_location_assignment PIN_C12 -to blue_out[5]
+set_location_assignment PIN_A11 -to blue_out[4]
+set_location_assignment PIN_B11 -to blue_out[3]
+set_location_assignment PIN_C11 -to blue_out[2]
+set_location_assignment PIN_A10 -to blue_out[1]
+set_location_assignment PIN_B10 -to blue_out[0]
+set_location_assignment PIN_A12 -to clk25_out
+set_location_assignment PIN_C9 -to green_out[7]
+set_location_assignment PIN_F10 -to green_out[6]
+set_location_assignment PIN_B8 -to green_out[5]
+set_location_assignment PIN_C8 -to green_out[4]
+set_location_assignment PIN_H12 -to green_out[3]
+set_location_assignment PIN_F8 -to green_out[2]
+set_location_assignment PIN_G11 -to green_out[1]
+set_location_assignment PIN_G8 -to green_out[0]
+set_location_assignment PIN_G13 -to hs_out
+set_location_assignment PIN_H10 -to red_out[7]
+set_location_assignment PIN_H8 -to red_out[6]
+set_location_assignment PIN_J12 -to red_out[5]
+set_location_assignment PIN_G10 -to red_out[4]
+set_location_assignment PIN_F12 -to red_out[3]
+set_location_assignment PIN_D10 -to red_out[2]
+set_location_assignment PIN_E11 -to red_out[1]
+set_location_assignment PIN_E12 -to red_out[0]
+set_location_assignment PIN_C10 -to sync
+set_location_assignment PIN_C13 -to vs_out
+set_location_assignment PIN_R24 -to block0
+set_location_assignment PIN_N21 -to block1
+set_location_assignment PIN_M21 -to block2
+set_location_assignment PIN_M23 -to block3
+set_location_assignment PIN_AB28 -to newGame
+set_location_assignment PIN_Y2 -to clk_50
+set_location_assignment PIN_G19 -to states[0]
+set_location_assignment PIN_E19 -to states[2]
+set_location_assignment PIN_F19 -to states[1]
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AC28 -to toggle
+set_location_assignment PIN_H15 -to displayTHAT
+set_global_assignment -name VHDL_FILE double_seven_seg.vhd
+set_global_assignment -name VHDL_FILE vga.vhd
+set_global_assignment -name VHDL_FILE counter.vhd
+set_global_assignment -name VHDL_FILE register_file.vhd
+set_global_assignment -name VHDL_FILE top.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestTop.vwf
+set_global_assignment -name VHDL_FILE simon_says.vhd
+set_global_assignment -name VHDL_FILE backup.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
+set_location_assignment PIN_AA14 -to levelDisplay[13]
+set_location_assignment PIN_AG18 -to levelDisplay[12]
+set_location_assignment PIN_AF17 -to levelDisplay[11]
+set_location_assignment PIN_AH17 -to levelDisplay[10]
+set_location_assignment PIN_AG17 -to levelDisplay[9]
+set_location_assignment PIN_AE17 -to levelDisplay[8]
+set_location_assignment PIN_AD17 -to levelDisplay[7]
+set_location_assignment PIN_AC17 -to levelDisplay[6]
+set_location_assignment PIN_AA15 -to levelDisplay[5]
+set_location_assignment PIN_AB15 -to levelDisplay[4]
+set_location_assignment PIN_AB17 -to levelDisplay[3]
+set_location_assignment PIN_AA16 -to levelDisplay[2]
+set_location_assignment PIN_AB16 -to levelDisplay[1]
+set_location_assignment PIN_AA17 -to levelDisplay[0]
+set_location_assignment PIN_AH18 -to triesDisplay[13]
+set_location_assignment PIN_AF18 -to triesDisplay[12]
+set_location_assignment PIN_AG19 -to triesDisplay[11]
+set_location_assignment PIN_AH19 -to triesDisplay[10]
+set_location_assignment PIN_AB18 -to triesDisplay[9]
+set_location_assignment PIN_AC18 -to triesDisplay[8]
+set_location_assignment PIN_AD18 -to triesDisplay[7]
+set_location_assignment PIN_AE18 -to triesDisplay[6]
+set_location_assignment PIN_AF19 -to triesDisplay[5]
+set_location_assignment PIN_AE19 -to triesDisplay[4]
+set_location_assignment PIN_AH21 -to triesDisplay[3]
+set_location_assignment PIN_AG21 -to triesDisplay[2]
+set_location_assignment PIN_AA19 -to triesDisplay[1]
+set_location_assignment PIN_AB19 -to triesDisplay[0]
+set_location_assignment PIN_G21 -to displayCorrect
+set_global_assignment -name CDF_FILE output_files/simon_says.cdf
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,143 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity PlusSign is
+	port(clk50_in : in std_logic;
+		red_out : out std_logic_vector(9 downto 0);
+		green_out : out std_logic_vector(9 downto 0);
+		blue_out : out std_logic_vector(9 downto 0);
+		hs_out : out std_logic;
+		clk25_out : out std_logic;
+		sync : out std_logic;
+		blank : out std_logic;
+		vs_out : out std_logic);
+end PlusSign;
+
+architecture DesignPlus of PlusSign is
+	signal clk25 : std_logic;
+	signal horizontal_counter : std_logic_vector (9 downto 0);
+	signal vertical_counter : std_logic_vector (9 downto 0);
+	begin
+	clk25_out <= clk25;
+	sync <= '0';
+	blank <= '1';
+	process (clk50_in)
+	begin
+	if clk50_in'event and clk50_in='1' then
+		if (clk25 = '0') then
+			clk25 <= '1';
+		else
+			clk25 <= '0';
+		end if;
+	end if;
+	end process;
+
+	process (clk25)
+	begin
+	if clk25'event and clk25 = '1' then
+
+	--blue square
+	if (((horizontal_counter >= "0011111111" ) -- 255
+	and (horizontal_counter < "0101100011" ) -- 355
+	and (vertical_counter >= "0010010110" ) --150
+	and (vertical_counter < "0011111010" ))) -- 250
+	then
+
+	--here you mix the color!!
+		blue_out <= "1111111111";
+		red_out <= "1111111111";
+		green_out <= "1111111111";
+	elsif	(((horizontal_counter >= "0111000111" ) -- 355
+	and (horizontal_counter < "01000101011" ) -- 455
+	and (vertical_counter >= "0010010110" ) --150
+	and (vertical_counter < "0011111010" ))) -- 250
+	then
+		--here you mix the color!!
+			blue_out <= "0000000000";
+			red_out <= "1111111111";
+			green_out <= "0000000000";
+	elsif	(((horizontal_counter >= "0011111111" ) -- 255
+	and (horizontal_counter < "0101100011" ) -- 355
+	and (vertical_counter >= "0101011110" ) --350
+	and (vertical_counter < "0111000010" ))) -- 250
+	then
+		--here you mix the color!!
+			blue_out <= "0000000000";
+			red_out <= "0000000000";
+			green_out <= "1111111111";
+	elsif	(((horizontal_counter >= "0111000111" ) -- 355
+	and (horizontal_counter < "01000101011" ) -- 455
+	and (vertical_counter >= "0101011110" ) --350
+	and (vertical_counter < "0111000010" ))) -- 250
+	then
+		--here you mix the color!!
+			blue_out <= "1111111111";
+			red_out <= "0000000000";
+			green_out <= "0000000000";
+	else
+		red_out <= "0000000000";
+		green_out <= "0000000000";
+		blue_out <= "0000000000";
+	end if;
+	
+	
+
+	--if((horizontal_counter >= "0110000001" ) -- 385
+	--and (horizontal_counter < "1000001101" ) -- 525
+	--and (vertical_counter >= "0011110000" ) -- 240
+	--and (vertical_counter < "0101011110" )) --450
+	--then
+	--	red_out <= "0000000000";
+	--	green_out <= "0000000000";
+	--	blue_out <= "0000000000";
+	--end if;
+
+	--green plus sign
+	--if (((horizontal_counter >= "0011111111" ) -- 255
+	--and (horizontal_counter < "1010001010" ) -- 650
+	--and (vertical_counter >= "0011110000" ) -- 240
+	--and (vertical_counter < "0101011110" )) --450
+	--or ((horizontal_counter >= "0110000001" ) -- 385
+	--and (horizontal_counter < "1000001101" ) -- 525
+	--and (vertical_counter >= "0010010110" ) --150
+	--and (vertical_counter < "0110111000" ))) -- 440
+
+	--then
+	--here you mix the color!!
+	--green_out <= "1111111111";
+	--red_out <= "0000000000";
+	--blue_out <= "0000000000";
+	--else
+	--red_out <= "0000000000";
+	--green_out <= "0000000000";
+	--blue_out <= "0000000000";
+	--end if;
+
+
+	if (horizontal_counter > "0000000000" )
+		and (horizontal_counter < "0001100001" ) -- 96+1
+		then
+			hs_out <= '0';
+		else
+			hs_out <= '1';
+		end if;
+		if (vertical_counter > "0000000000" )
+		and (vertical_counter < "0000000011" ) -- 2+1
+		then
+			vs_out <= '0';
+		else
+			vs_out <= '1';
+		end if;
+			horizontal_counter <= horizontal_counter+"0000000001";
+		if (horizontal_counter="1100100000") then
+			vertical_counter <= vertical_counter+"0000000001";
+			horizontal_counter <= "0000000000";
+		end if;
+		if (vertical_counter="1000001001") then
+			vertical_counter <= "0000000000";
+		end if;
+	end if;
+	end process;
+end DesignPlus;

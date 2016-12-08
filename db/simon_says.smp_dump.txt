@@ -1,0 +1,10 @@
+
+State Machine - |top|simon_says:GAME|action
+Name action.GAME_OVER action.TRY action.CORRECT action.PLAY action.SHOW action.CREATE action.START 
+action.START 0 0 0 0 0 0 0 
+action.CREATE 0 0 0 0 0 1 1 
+action.SHOW 0 0 0 0 1 0 1 
+action.PLAY 0 0 0 1 0 0 1 
+action.CORRECT 0 0 1 0 0 0 1 
+action.TRY 0 1 0 0 0 0 1 
+action.GAME_OVER 1 0 0 0 0 0 1 

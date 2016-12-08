@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50'
+Slack : -4.487
+TNS   : -489.161
+
+Type  : Slow 1200mV 85C Model Setup 'vga:VGA_DISPLAY|clk25'
+Slack : -3.901
+TNS   : -130.822
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50'
+Slack : -0.211
+TNS   : -0.211
+
+Type  : Slow 1200mV 85C Model Hold 'vga:VGA_DISPLAY|clk25'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50'
+Slack : -3.000
+TNS   : -215.025
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga:VGA_DISPLAY|clk25'
+Slack : -1.285
+TNS   : -59.110
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50'
+Slack : -4.006
+TNS   : -429.867
+
+Type  : Slow 1200mV 0C Model Setup 'vga:VGA_DISPLAY|clk25'
+Slack : -3.546
+TNS   : -114.794
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50'
+Slack : -0.179
+TNS   : -0.179
+
+Type  : Slow 1200mV 0C Model Hold 'vga:VGA_DISPLAY|clk25'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : -3.000
+TNS   : -215.025
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga:VGA_DISPLAY|clk25'
+Slack : -1.285
+TNS   : -59.110
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50'
+Slack : -1.645
+TNS   : -159.671
+
+Type  : Fast 1200mV 0C Model Setup 'vga:VGA_DISPLAY|clk25'
+Slack : -1.500
+TNS   : -41.528
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50'
+Slack : -0.270
+TNS   : -0.270
+
+Type  : Fast 1200mV 0C Model Hold 'vga:VGA_DISPLAY|clk25'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : -3.000
+TNS   : -178.616
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga:VGA_DISPLAY|clk25'
+Slack : -1.000
+TNS   : -46.000
+
+------------------------------------------------------------
